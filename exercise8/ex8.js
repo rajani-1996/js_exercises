@@ -11,7 +11,7 @@ function Sort() {
     while (i < arr.length) { 
         j = i + 1; 
         while (j < arr.length) { 
-            if (arr[j] < arr[i]) { 
+            if (arr[j].toLowerCase() < arr[i].toLowerCase()) { 
                 var temp = arr[i]; 
                 arr[i] = arr[j]; 
                 arr[j] = temp; 
